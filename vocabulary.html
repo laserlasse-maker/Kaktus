@@ -41,7 +41,7 @@
     <div class="hero">
       <div class="hero-eyebrow">Terminology Reference</div>
       <h1 class="hero-title">Vocabulary</h1>
-      <p class="hero-desc">Shared vocabulary for every Kaktus Tip of the Day series. Check new drafts against this list before publishing. Update here first, let the series follow.</p>
+      <p class="hero-desc">Every needle should have a common vocabulary. At least understand what the different words used in English are. This page is inteded for that purpose. Right now it is unfortunately a bit of a mess, but it will improve.</p>
     </div>
 
     <section class="entry" id="core">
@@ -60,16 +60,16 @@
           <div class="card-def">Individual character with equipment, armour, skills, stars, experience, faction, class and tier. Supported by troops.</div>
         </div>
         <div class="card">
-          <div class="card-term">Tier</div>
-          <div class="card-def">R, SR, SSR for heroes. Chief collection also has tiers, a separate meaning, context decides which. See Open Items.</div>
+          <div class="card-term">Hero Tier</div>
+          <div class="card-def">3 levels of quality for heroes, where R is low, SR is middle, and SSR is the highest quality.</div>
         </div>
         <div class="card">
-          <div class="card-term">Class</div>
+          <div class="card-term">Hero Class</div>
           <div class="card-def">Guard, Gunner, Marksman.</div>
         </div>
         <div class="card tag-blue">
-          <div class="card-term">Faction</div>
-          <div class="card-def"><strong>Stalwart</strong>/Green, <strong>Rover</strong>/Yellow, <strong>Aeronaut</strong>/Light blue, <strong>Mariner</strong>/Blue.</div>
+          <div class="card-term">Hero Faction</div>
+          <div class="card-def"><strong>Stalwart</strong>/Green, <strong>Rover</strong>/Yellow, <strong>Aeronaut</strong>/Light blue, <strong>Mariner</strong>/Blue. Some heroes are better against some enemies, and different combinations of factions will give different bonuses for your march.</div>
         </div>
         <div class="card tag-lightblue">
           <div class="card-term">Mariner</div>
@@ -109,8 +109,8 @@
           <div class="card-def">A group attack against a stronger enemy. One player starts it, others join, one march each. Up to 5 rounds, the party must win all of them.</div>
         </div>
         <div class="card tag-rust">
-          <div class="card-term">Draconic Resistance</div>
-          <div class="card-def">Too low, and damage is reduced by up to 98%.</div>
+          <div class="card-term">Resistance</div>
+          <div class="card-def">In the season, attacking infected will require resistance. In the current seasons, Darkness Resistance is granted through the lighthouse. Without enough resistance, the damage you make is reduced up to 99%. </div>
         </div>
       </div>
       <table class="datatable">
@@ -118,9 +118,9 @@
           <tr><th>Enemy Type</th><th>Level Range</th><th>Mode</th><th>Outcome Decided By</th></tr>
         </thead>
         <tbody>
-          <tr><td>Infected</td><td class="num">1–30</td><td>Solo</td><td>Single attack</td></tr>
-          <tr><td>Infected Fiend</td><td class="num">1–10</td><td>Group, single rally</td><td>Combined strength and resistance</td></tr>
-          <tr><td>Roaming Infected</td><td class="num">6–10</td><td>Group, multiple rallies</td><td>Combined strength</td></tr>
+          <tr><td>Infected</td><td class="num">1–30</td><td>Solo</td><td>Strength of your solo rally and your own resistance.</td></tr>
+          <tr><td>Infected Fiend</td><td class="num">1–10</td><td>Group, single rally</td><td>Combined strength of the rally and resistance of the rally leader</td></tr>
+          <tr><td>Roaming Infected</td><td class="num">6–10</td><td>Group, multiple rallies</td><td>Combined strength of the rally. Will not start until there at least 2 participants.</td></tr>
         </tbody>
       </table>
       <p class="entry-note" style="margin-top:14px;">These are the general names, used across all guides. Infected and Infected Fiend also have season-specific names, mapping to those still to be written.</p>
@@ -240,7 +240,11 @@
       <div class="card-grid">
         <div class="card tag-rust">
           <div class="card-term">PP</div>
-          <div class="card-def">Conflicting: Power Plant <strong>and</strong> Power Play, two separate events/concepts. Unresolved, see Open Items.</div>
+          <div class="card-def">This can mean ether "Power Plant" or "Power Play". You'll have to figure it out from the context. Sorry... </div>
+        </div>
+       <div class="card">
+          <div class="card-term"PP - Power Plant</div>
+          <div class="card-def">The main structure in your settlement. It determines how much you can upgrade most of your other buildings. Highest level is 30.</div>
         </div>
         <div class="card">
           <div class="card-term">AD</div>
@@ -252,7 +256,7 @@
         </div>
         <div class="card tag-rust">
           <div class="card-term">Power Play</div>
-          <div class="card-def">A separate daily event, points scored by specific actions on specific days and timeslots. Sometimes overlaps with TT (e.g. Tuesdays 02:00–06:00 CEST both give a construction bonus), sometimes doesn't. Also abbreviated "PP", see conflict above.</div>
+          <div class="card-def">A separate daily event, points scored by specific actions on specific days and timeslots. Sometimes overlaps with TT (e.g. Tuesdays 02:00–06:00 CEST both give a construction bonus), sometimes doesn't. Also abbreviated "PP", see conflict above. This is also know as "The Big Game"</div>
         </div>
         <div class="card">
           <div class="card-term">DD</div>
@@ -280,28 +284,11 @@
       </div>
       <div class="callout">
         <span class="callout-label">Planned, coming soon</span>
-        Table of core terms translated across languages used in Kaktus and State 505. Empty until terms are supplied.
+        We all know that the game's translation robot is drunk, most of the time. It works, but it sometimes fails miserably to translate game concepts correctly. So our ambition is to build a short repository of some of the most important phrases here. Let's see if ambitions matches our ability and available time...
       </div>
     </section>
 
-    <section class="entry" id="open">
-      <div class="entry-head">
-        <span class="entry-code">—</span>
-        <h2 class="entry-title">Open Items</h2>
-      </div>
-      <div class="callout">
-        <span class="callout-label">Needs a decision</span>
-        <strong>PP conflict, confirmed still open.</strong> "PP" means both Power Plant and Power Play, two different concepts, both in active use in the finalized General guide. Fix by spelling one out in full everywhere, or picking a different shorthand for one of them, before it causes a translation or comprehension error.
-      </div>
-      <div class="callout soft" style="margin-top:12px;">
-        <span class="callout-label">Not yet confirmed</span>
-        Season-specific names for Infected and Infected Fiend, not yet mapped. Whether hero armour should adopt tier language tied to Chief collection tiers, since Chief collection tiers already match the hero armour tier structure. Roamers is confirmed as its own distinct tip, a special moving type of Infected, not a duplicate of Roaming Infected, though the naming overlap is still worth a plain-language note for members.
-      </div>
-      <div class="callout soft" style="margin-top:12px;">
-        <span class="callout-label">Resolved</span>
-        Growing Stronger's intro and Tip 01 now both use "Tiers, Class and faction," the ordering mismatch flagged earlier is closed.
-      </div>
-    </section>
+    
   </main>
 </div>
 
